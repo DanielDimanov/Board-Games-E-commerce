@@ -11,10 +11,18 @@
 		30A144AF22174CA4006B875E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A144AE22174CA4006B875E /* ViewController.swift */; };
 		30A144B222174CA4006B875E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A144B022174CA4006B875E /* Main.storyboard */; };
 		30A144B522174CA4006B875E /* BoardGamesCommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30A144B322174CA4006B875E /* BoardGamesCommerce.xcdatamodeld */; };
-		30A144B722174CA5006B875E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A144B622174CA5006B875E /* Assets.xcassets */; };
 		30A144BA22174CA5006B875E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A144B822174CA5006B875E /* LaunchScreen.storyboard */; };
 		30A144C522174CA5006B875E /* BoardGamesCommerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A144C422174CA5006B875E /* BoardGamesCommerceTests.swift */; };
 		30A144D022174CA5006B875E /* BoardGamesCommerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A144CF22174CA5006B875E /* BoardGamesCommerceUITests.swift */; };
+		30A144E422174D26006B875E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A144E322174D26006B875E /* AppDelegate.swift */; };
+		30A144E622174D26006B875E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A144E522174D26006B875E /* ViewController.swift */; };
+		30A144E922174D26006B875E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A144E722174D26006B875E /* Main.storyboard */; };
+		30A144EC22174D27006B875E /* BoardGamesAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30A144EA22174D26006B875E /* BoardGamesAdmin.xcdatamodeld */; };
+		30A144EE22174D27006B875E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A144ED22174D27006B875E /* Assets.xcassets */; };
+		30A144F122174D27006B875E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A144EF22174D27006B875E /* LaunchScreen.storyboard */; };
+		30A144FC22174D27006B875E /* BoardGamesAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A144FB22174D27006B875E /* BoardGamesAdminTests.swift */; };
+		30A1450722174D28006B875E /* BoardGamesAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1450622174D28006B875E /* BoardGamesAdminUITests.swift */; };
+		30A1451222174D61006B875E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A144ED22174D27006B875E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,20 @@
 			remoteGlobalIDString = 30A144A822174CA4006B875E;
 			remoteInfo = BoardGamesCommerce;
 		};
+		30A144F822174D27006B875E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A144A122174CA4006B875E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A144E022174D26006B875E;
+			remoteInfo = BoardGamesAdmin;
+		};
+		30A1450322174D28006B875E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A144A122174CA4006B875E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A144E022174D26006B875E;
+			remoteInfo = BoardGamesAdmin;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +62,6 @@
 		30A144AE22174CA4006B875E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30A144B122174CA4006B875E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30A144B422174CA4006B875E /* BoardGamesCommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoardGamesCommerce.xcdatamodel; sourceTree = "<group>"; };
-		30A144B622174CA5006B875E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A144B922174CA5006B875E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30A144BB22174CA5006B875E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30A144C022174CA5006B875E /* BoardGamesCommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardGamesCommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +70,20 @@
 		30A144CB22174CA5006B875E /* BoardGamesCommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardGamesCommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A144CF22174CA5006B875E /* BoardGamesCommerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGamesCommerceUITests.swift; sourceTree = "<group>"; };
 		30A144D122174CA5006B875E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A144E122174D26006B875E /* BoardGamesAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardGamesAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A144E322174D26006B875E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30A144E522174D26006B875E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30A144E822174D26006B875E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30A144EB22174D26006B875E /* BoardGamesAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoardGamesAdmin.xcdatamodel; sourceTree = "<group>"; };
+		30A144ED22174D27006B875E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A144F022174D27006B875E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30A144F222174D27006B875E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A144F722174D27006B875E /* BoardGamesAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardGamesAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A144FB22174D27006B875E /* BoardGamesAdminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGamesAdminTests.swift; sourceTree = "<group>"; };
+		30A144FD22174D27006B875E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A1450222174D27006B875E /* BoardGamesAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardGamesAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A1450622174D28006B875E /* BoardGamesAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGamesAdminUITests.swift; sourceTree = "<group>"; };
+		30A1450822174D28006B875E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,15 +108,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30A144DE22174D26006B875E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A144F422174D27006B875E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A144FF22174D27006B875E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		30A144A022174CA4006B875E = {
 			isa = PBXGroup;
 			children = (
+				30A144ED22174D27006B875E /* Assets.xcassets */,
 				30A144AB22174CA4006B875E /* BoardGamesCommerce */,
 				30A144C322174CA5006B875E /* BoardGamesCommerceTests */,
 				30A144CE22174CA5006B875E /* BoardGamesCommerceUITests */,
+				30A144E222174D26006B875E /* BoardGamesAdmin */,
+				30A144FA22174D27006B875E /* BoardGamesAdminTests */,
+				30A1450522174D28006B875E /* BoardGamesAdminUITests */,
 				30A144AA22174CA4006B875E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +152,9 @@
 				30A144A922174CA4006B875E /* BoardGamesCommerce.app */,
 				30A144C022174CA5006B875E /* BoardGamesCommerceTests.xctest */,
 				30A144CB22174CA5006B875E /* BoardGamesCommerceUITests.xctest */,
+				30A144E122174D26006B875E /* BoardGamesAdmin.app */,
+				30A144F722174D27006B875E /* BoardGamesAdminTests.xctest */,
+				30A1450222174D27006B875E /* BoardGamesAdminUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,7 +165,6 @@
 				30A144AC22174CA4006B875E /* AppDelegate.swift */,
 				30A144AE22174CA4006B875E /* ViewController.swift */,
 				30A144B022174CA4006B875E /* Main.storyboard */,
-				30A144B622174CA5006B875E /* Assets.xcassets */,
 				30A144B822174CA5006B875E /* LaunchScreen.storyboard */,
 				30A144BB22174CA5006B875E /* Info.plist */,
 				30A144B322174CA4006B875E /* BoardGamesCommerce.xcdatamodeld */,
@@ -126,6 +188,37 @@
 				30A144D122174CA5006B875E /* Info.plist */,
 			);
 			path = BoardGamesCommerceUITests;
+			sourceTree = "<group>";
+		};
+		30A144E222174D26006B875E /* BoardGamesAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				30A144E322174D26006B875E /* AppDelegate.swift */,
+				30A144E522174D26006B875E /* ViewController.swift */,
+				30A144E722174D26006B875E /* Main.storyboard */,
+				30A144EF22174D27006B875E /* LaunchScreen.storyboard */,
+				30A144F222174D27006B875E /* Info.plist */,
+				30A144EA22174D26006B875E /* BoardGamesAdmin.xcdatamodeld */,
+			);
+			path = BoardGamesAdmin;
+			sourceTree = "<group>";
+		};
+		30A144FA22174D27006B875E /* BoardGamesAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				30A144FB22174D27006B875E /* BoardGamesAdminTests.swift */,
+				30A144FD22174D27006B875E /* Info.plist */,
+			);
+			path = BoardGamesAdminTests;
+			sourceTree = "<group>";
+		};
+		30A1450522174D28006B875E /* BoardGamesAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30A1450622174D28006B875E /* BoardGamesAdminUITests.swift */,
+				30A1450822174D28006B875E /* Info.plist */,
+			);
+			path = BoardGamesAdminUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +277,59 @@
 			productReference = 30A144CB22174CA5006B875E /* BoardGamesCommerceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		30A144E022174D26006B875E /* BoardGamesAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A1450922174D28006B875E /* Build configuration list for PBXNativeTarget "BoardGamesAdmin" */;
+			buildPhases = (
+				30A144DD22174D26006B875E /* Sources */,
+				30A144DE22174D26006B875E /* Frameworks */,
+				30A144DF22174D26006B875E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoardGamesAdmin;
+			productName = BoardGamesAdmin;
+			productReference = 30A144E122174D26006B875E /* BoardGamesAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30A144F622174D27006B875E /* BoardGamesAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A1450C22174D28006B875E /* Build configuration list for PBXNativeTarget "BoardGamesAdminTests" */;
+			buildPhases = (
+				30A144F322174D27006B875E /* Sources */,
+				30A144F422174D27006B875E /* Frameworks */,
+				30A144F522174D27006B875E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A144F922174D27006B875E /* PBXTargetDependency */,
+			);
+			name = BoardGamesAdminTests;
+			productName = BoardGamesAdminTests;
+			productReference = 30A144F722174D27006B875E /* BoardGamesAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30A1450122174D27006B875E /* BoardGamesAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A1450F22174D28006B875E /* Build configuration list for PBXNativeTarget "BoardGamesAdminUITests" */;
+			buildPhases = (
+				30A144FE22174D27006B875E /* Sources */,
+				30A144FF22174D27006B875E /* Frameworks */,
+				30A1450022174D27006B875E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A1450422174D28006B875E /* PBXTargetDependency */,
+			);
+			name = BoardGamesAdminUITests;
+			productName = BoardGamesAdminUITests;
+			productReference = 30A1450222174D27006B875E /* BoardGamesAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +351,17 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 30A144A822174CA4006B875E;
 					};
+					30A144E022174D26006B875E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					30A144F622174D27006B875E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 30A144E022174D26006B875E;
+					};
+					30A1450122174D27006B875E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 30A144E022174D26006B875E;
+					};
 				};
 			};
 			buildConfigurationList = 30A144A422174CA4006B875E /* Build configuration list for PBXProject "BoardGamesCommerce" */;
@@ -223,6 +380,9 @@
 				30A144A822174CA4006B875E /* BoardGamesCommerce */,
 				30A144BF22174CA5006B875E /* BoardGamesCommerceTests */,
 				30A144CA22174CA5006B875E /* BoardGamesCommerceUITests */,
+				30A144E022174D26006B875E /* BoardGamesAdmin */,
+				30A144F622174D27006B875E /* BoardGamesAdminTests */,
+				30A1450122174D27006B875E /* BoardGamesAdminUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A144BA22174CA5006B875E /* LaunchScreen.storyboard in Resources */,
-				30A144B722174CA5006B875E /* Assets.xcassets in Resources */,
+				30A1451222174D61006B875E /* Assets.xcassets in Resources */,
 				30A144B222174CA4006B875E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +406,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		30A144C922174CA5006B875E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A144DF22174D26006B875E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A144F122174D27006B875E /* LaunchScreen.storyboard in Resources */,
+				30A144EE22174D27006B875E /* Assets.xcassets in Resources */,
+				30A144E922174D26006B875E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A144F522174D27006B875E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A1450022174D27006B875E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,6 +465,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30A144DD22174D26006B875E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A144EC22174D27006B875E /* BoardGamesAdmin.xcdatamodeld in Sources */,
+				30A144E622174D26006B875E /* ViewController.swift in Sources */,
+				30A144E422174D26006B875E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A144F322174D27006B875E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A144FC22174D27006B875E /* BoardGamesAdminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A144FE22174D27006B875E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A1450722174D28006B875E /* BoardGamesAdminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +503,16 @@
 			isa = PBXTargetDependency;
 			target = 30A144A822174CA4006B875E /* BoardGamesCommerce */;
 			targetProxy = 30A144CC22174CA5006B875E /* PBXContainerItemProxy */;
+		};
+		30A144F922174D27006B875E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A144E022174D26006B875E /* BoardGamesAdmin */;
+			targetProxy = 30A144F822174D27006B875E /* PBXContainerItemProxy */;
+		};
+		30A1450422174D28006B875E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A144E022174D26006B875E /* BoardGamesAdmin */;
+			targetProxy = 30A1450322174D28006B875E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -309,6 +529,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				30A144B922174CA5006B875E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30A144E722174D26006B875E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A144E822174D26006B875E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30A144EF22174D27006B875E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A144F022174D27006B875E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -550,6 +786,124 @@
 			};
 			name = Release;
 		};
+		30A1450A22174D28006B875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSAJ6R79NB;
+				INFOPLIST_FILE = BoardGamesAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddimanov.BoardGamesAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30A1450B22174D28006B875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSAJ6R79NB;
+				INFOPLIST_FILE = BoardGamesAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddimanov.BoardGamesAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30A1450D22174D28006B875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSAJ6R79NB;
+				INFOPLIST_FILE = BoardGamesAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddimanov.BoardGamesAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoardGamesAdmin.app/BoardGamesAdmin";
+			};
+			name = Debug;
+		};
+		30A1450E22174D28006B875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSAJ6R79NB;
+				INFOPLIST_FILE = BoardGamesAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddimanov.BoardGamesAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoardGamesAdmin.app/BoardGamesAdmin";
+			};
+			name = Release;
+		};
+		30A1451022174D28006B875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSAJ6R79NB;
+				INFOPLIST_FILE = BoardGamesAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddimanov.BoardGamesAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoardGamesAdmin;
+			};
+			name = Debug;
+		};
+		30A1451122174D28006B875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSAJ6R79NB;
+				INFOPLIST_FILE = BoardGamesAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddimanov.BoardGamesAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoardGamesAdmin;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -589,6 +943,33 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		30A1450922174D28006B875E /* Build configuration list for PBXNativeTarget "BoardGamesAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A1450A22174D28006B875E /* Debug */,
+				30A1450B22174D28006B875E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A1450C22174D28006B875E /* Build configuration list for PBXNativeTarget "BoardGamesAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A1450D22174D28006B875E /* Debug */,
+				30A1450E22174D28006B875E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A1450F22174D28006B875E /* Build configuration list for PBXNativeTarget "BoardGamesAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A1451022174D28006B875E /* Debug */,
+				30A1451122174D28006B875E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -599,6 +980,16 @@
 			);
 			currentVersion = 30A144B422174CA4006B875E /* BoardGamesCommerce.xcdatamodel */;
 			path = BoardGamesCommerce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		30A144EA22174D26006B875E /* BoardGamesAdmin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30A144EB22174D26006B875E /* BoardGamesAdmin.xcdatamodel */,
+			);
+			currentVersion = 30A144EB22174D26006B875E /* BoardGamesAdmin.xcdatamodel */;
+			path = BoardGamesAdmin.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
